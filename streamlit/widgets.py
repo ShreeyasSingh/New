@@ -10,7 +10,7 @@ if name:
 else:
     st.write("Please enter your name:")
 
-age=st.slider("Enter your age:",min_value=0, max_value=100, value=25)
+age=st.slider("Enter your age:",min_value=0, max_value=100, value=25)## default value=25
 
 st.write(f"You are {age} years old")
 
